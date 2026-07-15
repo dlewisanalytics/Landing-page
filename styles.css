@@ -1210,6 +1210,24 @@ a:focus-visible {
     }
 }
 
+.credly-badge-container {
+    display: flex;
+    width: 100%;
+    margin: 10px 0 28px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.credly-badge-container iframe {
+    max-width: 100%;
+    border: none;
+}
+
+@media (max-width: 620px) {
+    .credly-badge-container {
+        justify-content: center;
+    }
+}
 
 /* ---------- Reduced Motion Accessibility ---------- */
 
